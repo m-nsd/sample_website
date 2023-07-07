@@ -4,3 +4,24 @@
 .nav-spacing {
   margin: 0 0 0 10px;
 }
+.image-link {
+  text-decoration: none;
+}
+.blk-sty {
+  padding: 2px 20px; background: #fbfbfb;
+}
+.hdr-sty {
+  text-align: center;
+}
+.kjr-sty {
+  display: block; margin: 0 auto;
+}
+.mobydik-d-sty {
+  width: 560px; margin: 20px auto; padding: 30px; background-color: #fafafa;
+}
+.kjr2-sty {
+  float: left; margin: 0 40px 0 0;
+}
+.mobydik-bq-sty {
+ font-style: italic; font-size: 20px; 
+}
