@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <title>HTMLタグ一覧</title>
     <meta charset="utf-8">
   </head>
   <body>
+
+    <div>
+      <a href="index.html">homeページ</a>
+      <a href="moby_dick.html">読書案内『Moby Dick』</a>
+      <a href="tags.html">HTMLタグ一覧</a>
+    </div>
 
     <h1>重要なHTMLタグ一覧</h1>
 
@@ -61,6 +67,26 @@
         <td>表のデータ（table data）</td>
         <td>この中に表のセルデータを置く</td>
       </tr>
+      <tr>
+        <td><code>header</code></td>
+        <td>ページのヘッダ部</td>
+        <td>ページのヘッダ部を示す</td>
+      </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>ページのセクション</td>
+        <td>ページのセクションを示す</td>
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>順序リスト</td>
+        <td>順序リストのセクションを示す</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>順序なしリスト</td>
+        <td>順序なしリストのセクションを示す</td>
+      </tr>
     </table>
 
     <h2>インライン要素（inline element）</h2>
@@ -110,6 +136,34 @@
           </code>
         </td>
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>行内の一部</td>
+        <td>行内の一部を示す</td>
+        <td>
+          <code>
+            &lt;span&gt;イシュマエルと呼んでくれ。&lt;/span&gt;
+          </code>
+        </td>
+        <td><span>イシュマエルと呼んでくれ。</span></td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>リストの要素</td>
+        <td>リストの要素を示す</td>
+        <td>
+          <code>
+            &lt;ol&gt;&lt;li&gt;順次リスト要素&lt;/li&gt;&lt;/ol&gt;<br>
+            または<br>
+            &lt;ul&gt;&lt;li&gt;順序なしリスト要素&lt;/li&gt;&lt;/ul&gt;
+          </code>
+        </td>
+        <td>
+          <ol><li>順序リスト要素</li></ol>
+          または
+          <ul><li>順序なしリスト要素</li></ul>
+        </td>
       </tr>
     </table>
 
