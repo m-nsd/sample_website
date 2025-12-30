@@ -3,13 +3,14 @@
   <head>
     <title>HTMLタグ一覧</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
-    <div>
+    <div id="main-nav" class="nav-menu">
       <a href="index.html">homeページ</a>
-      <a href="moby_dick.html">読書案内『Moby Dick』</a>
-      <a href="tags.html">HTMLタグ一覧</a>
+      <a href="tags.html" class="nav-spacing">HTMLタグ一覧</a>
+      <a href="moby_dick.html" class="nav-spacing">読書案内『Moby Dick』</a>
     </div>
 
     <h1>重要なHTMLタグ一覧</h1>
@@ -148,22 +149,54 @@
         </td>
         <td><span>イシュマエルと呼んでくれ。</span></td>
       </tr>
+      
       <tr>
-        <td><code>li</code></td>
-        <td>リストの要素</td>
-        <td>リストの要素を示す</td>
+        <td><code>code</code></td>
+        <td>ソースコード</td>
+        <td>HTML内でのソースコードを示す</td>
         <td>
-          <code>
-            &lt;ol&gt;&lt;li&gt;順次リスト要素&lt;/li&gt;&lt;/ol&gt;<br>
-            または<br>
-            &lt;ul&gt;&lt;li&gt;順序なしリスト要素&lt;/li&gt;&lt;/ul&gt;
-          </code>
+            &lt;code&gt; code  &lt;/code&gt;
         </td>
         <td>
-          <ol><li>順序リスト要素</li></ol>
-          または
-          <ul><li>順序なしリスト要素</li></ul>
+          <code>code</code>
         </td>
+      </tr>
+    </table>
+
+    <h2>ドキュメントタグ</h2>
+
+    <table>
+      <tr>
+        <th>ドキュメントタグ</th>
+        <th>意味・用途</th> 
+      </tr>
+      <tr>
+        <td><code>!DOCTYPE</code></td>
+        <td>HTMLのバージョンを示す</td>
+      </tr>
+      <tr>
+        <td><code>!-- --</code></td>
+        <td>HTMLページ内のコメント部を示す</td>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>htmlのページを示す</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>ページ内のヘッド部を示す</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>ページ内のボディ部を示す</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>ページのタイトルを示す</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>ページのメタデータの定義部を示す</td>
       </tr>
     </table>
 
